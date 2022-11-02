@@ -10,7 +10,7 @@ dotenv.config({path:'../config.env'});
 app.use(bodyParser.json());
 // app.use(cors())
 
-mongoose.connect(process.env.DATABASE_URL)
+mongoose.connect("mongodb+srv://testing:TXPxQZxsp8BSnQb9@cluster0.jhebhrt.mongodb.net/test")
 
 .then(() => {
     console.log("MongoDb connected")

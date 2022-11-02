@@ -1,0 +1,22 @@
+.seatselection{
+    margin: auto;
+    width: 30rem;
+    height: 25rem;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    row-gap: 1.5rem;
+}
+.seatselection #cat , .seatselection #number{
+    padding: .5rem;
+    width: 6rem;
+}
+.seatselection button{
+    width: 5rem;
+    margin: 1rem 0 0 3.5rem;
+    padding: .4rem;
+    border: 1px solid black;
+    border-radius: .5rem;
+}

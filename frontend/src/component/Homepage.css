@@ -1,0 +1,13 @@
+.allmovies{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#movie{
+    width: 20rem;
+    height: 10rem;
+    margin: .5rem;
+    background-color: aqua;
+}
